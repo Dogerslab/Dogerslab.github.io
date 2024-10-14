@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Arcade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Arcade</h1>
+        <nav>
+            <ul>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="game-container" style="display: none;">
+            <!-- Game will be rendered here -->
+        </div>
+        <section id="games">
+            <h2>Games</h2>
+            <button id="start-flappy-bird">Start Flappy Bird</button>
+            <button id="start-catch-game">Start Catch Game</button>
+            <button id="start-tic-tac-toe">Tic-Tac-Toe</button>
+            <button id="start-platformer">Start Platformer</button>
+            <button id="start-game1">Guess the Number</button>
+            <button id="start-game2">Start Game 2</button>
+        </section>
+        <section id="about" style="display: none;">
+            <h2>About</h2>
+            <p>This arcade features a collection of simple games built with HTML, CSS, and JavaScript. Enjoy!</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="assets/games/ticTacToe.js"></script>
+    <script src="assets/games/platformer.js"></script>
+    <script src="assets/games/flappyBird.js"></script>
+    <script src="assets/games/catchGame.js"></script>
+    <script src="assets/games/game1.js"></script>
+    <script src="assets/games/game2.js"></script>
+</body>
+</html>
